@@ -35,6 +35,11 @@
         height: 400px;
       
     }
+    #action-btn{
+        margin: auto ;
+        text-align: center;
+      }
+
 }
 /* iphone xr */
 @media (max-width: 330px){
