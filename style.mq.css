@@ -35,4 +35,9 @@
         height: 400px;
       
     }
+
+
+. navbar-toggler{
+margin-left: -10px;
+}
 }
