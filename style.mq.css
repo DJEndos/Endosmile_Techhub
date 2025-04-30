@@ -60,7 +60,7 @@
 
 }
 /* mid-range android phones */
-@media (max-width: 768px){
+@media (max-width: 385px){
     .hero-section #btns{
         font-size: 10px;
         margin: auto 70px;
