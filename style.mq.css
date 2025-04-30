@@ -35,17 +35,38 @@
         height: 400px;
       
     }
-
-
-.navbar-toggler{
-margin-left: -10px;
 }
-.profile-img {
-    width:  268px;
-    height: 268px;
-    object-fit: cover;
-    border-radius: 10px;
-    border: 5px solid var(--primary-color);
-}
+/* iphone xr */
+@media (max-width: 330px){
+    .profile-img {
+        width:  250px;
+        height: 250px;
+      
+    }
+    .hero-section .btn{
+      font-size: 15px;
+      text-align: center;
+    }
 
+}
+/* iPhone X, XS, XS MAx */
+@media (max-width: 458px){
+    .hero-section .btn{
+        font-size: 15px;
+        display: grid;
+        margin: auto;
+        justify-content: space-evenly;
+      }
+
+}
+/* mid-range android phones */
+@media (max-width: 480px){
+    .hero-section #btns{
+        font-size: 10px;
+        margin: auto 70px;
+      }
+      #action-btn{
+        margin: auto ;
+        text-align: center;
+      }
 }
