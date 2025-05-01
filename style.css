@@ -18,6 +18,7 @@
     top: 0;
     padding: 5;
     z-index: 1000;
+    border-bottom: 3px solid var(--primary-color);
 
 }
 body {
@@ -62,12 +63,28 @@ a {
     background-position: center;
     color: white;
     margin-top: 0;
+    border-bottom: 3px solid var(--primary-color);
 }
 .hero-section .container{
     justify-content: space-between;
 }
 
 /* About Section */
+#about{
+    border-bottom: 3px solid var(--primary-color);
+}
+#skills{
+    border-bottom: 3px solid var(--primary-color);
+}
+#portfolio{
+    border-bottom: 3px solid var(--primary-color);
+}
+#experience{
+    border-bottom: 3px solid var(--primary-color);
+}
+#contact{
+    border-bottom: 3px solid var(--primary-color);
+}
 .profile-img {
     width:  300px;
     height: 300px;
